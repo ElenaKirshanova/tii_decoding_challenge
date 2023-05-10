@@ -26,11 +26,17 @@ McEliece82 = {'sec': 82, 'n': 1506, 'k': 1077, 't': 39, 'm': 11}
 McEliece83 = {'sec': 83, 'n': 1523, 'k': 1083, 't': 40, 'm': 11}
 McEliece84 = {'sec': 84, 'n': 1540, 'k': 1089, 't': 41, 'm': 11}
 McEliece85 = {'sec': 85, 'n': 1548, 'k': 1075, 't': 43, 'm': 11}
+McEliece86 = {'sec': 86, 'n': 1749, 'k': 1364, 't': 35, 'm': 11}
+McEliece87 = {'sec': 87, 'n': 1732, 'k': 1325, 't': 37, 'm': 11}
+McEliece88 = {'sec': 88, 'n': 1745, 'k': 1327, 't': 38, 'm': 11}
+McEliece89 = {'sec': 89, 'n': 1754, 'k': 1325, 't': 39, 'm': 11}
+McEliece90 = {'sec': 90, 'n': 1788, 'k': 1359, 't': 39, 'm': 11}
 
 all_challenges = [McEliece22, McEliece23, McEliece24, McEliece25, McEliece26, McEliece27,
               McEliece28, McEliece29, McEliece30, McEliece31, McEliece32, McEliece33,
               McEliece70, McEliece71, McEliece72, McEliece73, McEliece74,
-              McEliece80, McEliece81, McEliece82, McEliece83, McEliece84, McEliece85]
+              McEliece80, McEliece81, McEliece82, McEliece83, McEliece84, McEliece85,
+              McEliece86, McEliece87, McEliece88, McEliece89, McEliece90]
 
 def find_correct_instance(sec):
     for instance in all_challenges:
