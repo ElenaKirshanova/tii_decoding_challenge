@@ -19,19 +19,21 @@ Short description of the content:
 * params.sage contains a script that find concrete Goppa code parameters for Track 2 (McEliece key recovery) and Track 3 (McElice message recovery)
 * check_solution_track2.sage checks solution for Track 2
 * check_solution_track3.sage checks solution for Track 3
-* priv_keyRec/ contains files named 'sk_McEliece_'+bit_security+'.txt' with the secret keys of the form
-  * coefficient-vector of the secret Goppa polynomial g in  variable 'a'
-  * vector L of the Goppa support points in  variable 'a'.
+
 These are the solutions to McEliece challenges Track 2.
 * public_keyRec/ contains files 'pk_McEliece_'+bit_security+'.txt' with:
   * public matrix H in the systematic form (the identity matrix is also stored),
   * coefficients of unitary irreducbile polynomial f s.t. F_{2^m} = F_2[x]/f(x).
 This is public data for McEliece challenges Track 2.
-* priv/ contains files with the error vectors named 'error_McEliece_'+bit_security+'.txt'. These are the solutions to McEliece challenges Track 3.
+
 * public/ contains files 'pk_McEliece_'+bit_security+'.txt' with:
   * public matrix H in the systematic form (the identity matrix is also stored)
   * syndrome vector
   * coefficients of unitary irreducbile polynomial f s.t. F_{2^m} = F_2[x]/f(x).
+  * parameter n
+  * parameter k
+  * parameter t
+  * parameter m
 This is public data for McEliece challenges Track 3.
 
 
