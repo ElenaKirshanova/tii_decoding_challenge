@@ -14,23 +14,71 @@ McEliece31 = {'sec': 31, 'n': 190, 'k': 142, 't': 6, 'm': 8}
 McEliece32 = {'sec': 32, 'n': 191, 'k': 135, 't': 7, 'm': 8}
 McEliece33 = {'sec': 33, 'n': 231, 'k': 183, 't': 6, 'm': 8}
 
+McEliece34 = {'sec': 34, 'n': 404, 'k': 305, 't': 11, 'm': 9}
+McEliece35 = {'sec': 35, 'n': 416, 'k': 308, 't': 12, 'm': 9}
+McEliece36 = {'sec': 36, 'n': 414, 'k': 288, 't': 14, 'm': 9}
+McEliece37 = {'sec': 37, 'n': 438, 'k': 312, 't': 14, 'm': 9}
+McEliece38 = {'sec': 38, 'n': 464, 'k': 338, 't': 14, 'm': 9}
+McEliece39 = {'sec': 39, 'n': 490, 'k': 364, 't': 14, 'm': 9}
+McEliece40 = {'sec': 40, 'n': 500, 'k': 365, 't': 15, 'm': 9}
+McEliece41 = {'sec': 41, 'n': 500, 'k': 347, 't': 17, 'm': 9}
+McEliece42 = {'sec': 42, 'n': 510, 'k': 339, 't': 19, 'm': 9}
+McEliece43 = {'sec': 43, 'n': 618, 'k': 458, 't': 16, 'm': 10}
+McEliece44 = {'sec': 44, 'n': 648, 'k': 488, 't': 16, 'm': 10}
+McEliece45 = {'sec': 45, 'n': 680, 'k': 520, 't': 16, 'm': 10}
+McEliece46 = {'sec': 46, 'n': 712, 'k': 552, 't': 16, 'm': 10}
+McEliece47 = {'sec': 47, 'n': 720, 'k': 550, 't': 17, 'm': 10}
+McEliece48 = {'sec': 48, 'n': 752, 'k': 582, 't': 17, 'm': 10}
+McEliece49 = {'sec': 49, 'n': 786, 'k': 616, 't': 17, 'm': 10}
+
+McEliece50 = {'sec': 50, 'n': 750, 'k': 550, 't': 20, 'm': 10}
+McEliece51 = {'sec': 51, 'n': 780, 'k': 580, 't': 20, 'm': 10}
+McEliece52 = {'sec': 52, 'n': 808, 'k': 608, 't': 20, 'm': 10}
+McEliece53 = {'sec': 53, 'n': 820, 'k': 610, 't': 21, 'm': 10}
+McEliece54 = {'sec': 54, 'n': 832, 'k': 612, 't': 22, 'm': 10}
+McEliece55 = {'sec': 55, 'n': 880, 'k': 670, 't': 21, 'm': 10}
+McEliece56 = {'sec': 56, 'n': 870, 'k': 640, 't': 23, 'm': 10}
+McEliece57 = {'sec': 57, 'n': 898, 'k': 668, 't': 23, 'm': 10}
+McEliece58 = {'sec': 58, 'n': 928, 'k': 698, 't': 23, 'm': 10}
+McEliece59 = {'sec': 59, 'n': 956, 'k': 726, 't': 23, 'm': 10}
+
+
+
+McEliece60 = {'sec': 60, 'n': 988, 'k': 758, 't': 23, 'm': 10}
+McEliece61 = {'sec': 61, 'n': 998, 'k': 758, 't': 24, 'm': 10}
+McEliece62 = {'sec': 62, 'n': 1008, 'k': 758, 't': 25, 'm': 10}
+McEliece63 = {'sec': 63, 'n': 1020, 'k': 760, 't': 26, 'm': 10}
+McEliece64 = {'sec': 64, 'n': 1018, 'k': 738, 't': 28, 'm': 10}
+McEliece65 = {'sec': 65, 'n': 1020, 'k': 720, 't': 30, 'm': 10}
+McEliece66 = {'sec': 66, 'n': 1196, 'k': 899, 't': 27, 'm': 11}
+McEliece67 = {'sec': 67, 'n': 1210, 'k': 902, 't': 28, 'm': 11}
+McEliece68 = {'sec': 68, 'n': 1224, 'k': 905, 't': 29, 'm': 11}
+McEliece69 = {'sec': 69, 'n': 1240, 'k': 910, 't': 30, 'm': 11}
+
 McEliece70 = {'sec': 70, 'n': 1322, 'k': 1014, 't': 28, 'm': 11}
 McEliece71 = {'sec': 71, 'n': 1332, 'k': 1013, 't': 29, 'm': 11}
 McEliece72 = {'sec': 72, 'n': 1343, 'k': 1013, 't': 30, 'm': 11}
 McEliece73 = {'sec': 73, 'n': 1401, 'k': 1082, 't': 29, 'm': 11}
 McEliece74 = {'sec': 74, 'n': 1388, 'k': 1047, 't': 31, 'm': 11}
 
+
+McEliece75 = {'sec': 75, 'n': 1400, 'k': 1048, 't': 32, 'm': 11}
+McEliece76 = {'sec': 76, 'n': 1434, 'k': 1082, 't': 32, 'm': 11}
+McEliece77 = {'sec': 77, 'n': 1428, 'k': 1054, 't': 34, 'm': 11}
+McEliece78 = {'sec': 78, 'n': 1460, 'k': 1086, 't': 34, 'm': 11}
+McEliece79 = {'sec': 79, 'n': 1458, 'k': 1062, 't': 36, 'm': 11}
+
 McEliece80 = {'sec': 80, 'n': 1488, 'k': 1092, 't': 36, 'm': 11}
 McEliece81 = {'sec': 81, 'n': 1490, 'k': 1072, 't': 38, 'm': 11}
 McEliece82 = {'sec': 82, 'n': 1506, 'k': 1077, 't': 39, 'm': 11}
 McEliece83 = {'sec': 83, 'n': 1523, 'k': 1083, 't': 40, 'm': 11}
 McEliece84 = {'sec': 84, 'n': 1540, 'k': 1089, 't': 41, 'm': 11}
-McEliece85 = {'sec': 85, 'n': 1548, 'k': 1075, 't': 43, 'm': 11}
+McEliece85 = {'sec': 85, 'n': 1686, 'k': 1290, 't': 36, 'm': 11}
 McEliece86 = {'sec': 86, 'n': 1749, 'k': 1364, 't': 35, 'm': 11}
 McEliece87 = {'sec': 87, 'n': 1732, 'k': 1325, 't': 37, 'm': 11}
 McEliece88 = {'sec': 88, 'n': 1745, 'k': 1327, 't': 38, 'm': 11}
 McEliece89 = {'sec': 89, 'n': 1754, 'k': 1325, 't': 39, 'm': 11}
-McEliece90 = {'sec': 90, 'n': 1788, 'k': 1359, 't': 39, 'm': 11}
+McEliece90 = {'sec': 90, 'n': 1788, 'k': 1359, 't': 39, 'm': 11} 
 
 all_challenges = [McEliece22, McEliece23, McEliece24, McEliece25, McEliece26, McEliece27,
               McEliece28, McEliece29, McEliece30, McEliece31, McEliece32, McEliece33,
