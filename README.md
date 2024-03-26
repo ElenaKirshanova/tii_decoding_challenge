@@ -39,12 +39,7 @@ This is public data for McEliece challenges Track 3.
 
 # How to use
 
-To generate all (non-toy) challenges for Track 2 run
-```
-sage McEliece_challenge_track2.sage
-```
-This will re-generate all the files with non-toy security levels in folders priv_keyRec/ and public_keyRec/. The generation might take a few minutes.
-See the script *McEliece_challenge_track2.sage* to know how to generate only toy-challenges.
+## Track 2: Key Recovery
 
 To check a solution, create a file that contains
 * coefficient-vector of the secret Goppa polynomial g in variable 'a' (from low degree to high degree) of your solution
@@ -56,15 +51,32 @@ sage check_solution_track2.sage 22 priv_keyRec/sk_McEliece_22.txt
 ```
 If the provided solution is correct, the script returns 1. Otherwise it returns 0.
 
-To generate all challenges with security levels 70--74 for Track 3 run
-```
-sage McEliece_challenge_track3.sage
-```
-This will re-generate all the files with security levels 70--74 in folders priv/ and public/.
-See the script *McEliece_challenge_track3.sage* to know how to generate the other challenges.
+## Track 3: Message Recovery
 
 To check a solution execute the script *check_solution_track3.sage* providing the sec. level of the solved challenge as the first argument and the error vector as a binary string with no space. For example,
 ```
 sage check_solution_track3.sage 22 0000000000000000010000000000000000000000100000100000000000000000000000000000000000000000000000
 ```
 If the provided solution is correct, the script returns 1. Otherwise it returns 0.
+
+# How to generate your own challenges
+
+## Track 2: Key Recovery
+
+To generate all challenges for Track 2 run
+```
+sage McEliece_challenge_track2.sage
+```
+This will re-generate all the files with non-toy security levels in folders priv_keyRec/ and public_keyRec/. The generation might take a few minutes.
+See the script *McEliece_challenge_track2.sage* to know how to generate only toy-challenges.
+
+## Track 3: Message Recovery
+
+To generate all challenges for Track 3 run
+```
+sage McEliece_challenge_track3.sage
+```
+This will re-generate all the files with the desired security levels in folders priv/ and public/.
+See the script *McEliece_challenge_track3.sage* to know how to generate the other challenges.
+
+*The scripts to generate challenges (both Track 2 and Track 3) merely exemplify how the TII decoding challenges were created. If you wish to check your solution for the TII challenge, the content of the public folders should not be modified.*
