@@ -37,7 +37,7 @@ This is public data for McEliece challenges Track 2.
 This is public data for McEliece challenges Track 3.
 
 
-# How to use
+# How to verify your solution
 
 ## Track 2: Key Recovery
 
